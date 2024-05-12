@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import {useEffect} from "react";
-window.Telegram.WebApp
 const tg = window.Telegram.WebApp
 
 function App() {
 
     useEffect(() => {
-        tg.ready():
-    }, []);
+        tg.ready();
+    }, [])
 
     const onClose = () => {
         tg.close()
@@ -16,7 +15,7 @@ function App() {
   return (
     <div className="App">
       work
-        <button>Закрыть</button>
+        <button onClick={onClose}>Закрыть</button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
