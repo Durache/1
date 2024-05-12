@@ -7,7 +7,7 @@ function App() {
 
     useEffect(() => {
         tg.ready();
-    }, [])gir
+    }, [])
     }
   return (
     <div className="App">
