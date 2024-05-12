@@ -7,10 +7,7 @@ function App() {
 
     useEffect(() => {
         tg.ready();
-    }, [])
-
-    const onClose = () => {
-        tg.close()
+    }, [])gir
     }
   return (
     <div className="App">
